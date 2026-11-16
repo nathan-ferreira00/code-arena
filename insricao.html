@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>inscrição</title>
+</head>
+
+<body>
+    <h1>inscrição de turmas</h1>
+    <p class="aviso">so restam 5 vagas para cada curso!</p>
+    <form class="cartao" action="">
+        <label for="name">nome</label>
+        <input type="text" name="nome" id="name" placeholder="digite seu nome">
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="digite sue email">
+        <br>
+        <label for="turma">turma</label>
+        <input type="text" name="turma" id="turma" placeholder="insira sua turma">
+        <br>
+        <label for="turno">turno</label>
+        <select name="turno" id="turno">
+            <option value="manha">manhã</option>
+            <option value="tarde">tarde</option>
+        </select>
+        <br>
+        <label for="area do curos">área do curso</label>
+        <select name="cursos" id="cursos">
+            <option value="tecnologia">Tecnologia</option>
+            <option value="mecanica">Mecânica</option>
+            <option value="gastronomia">Gastronomia</option>
+            <option value="botanica">Botânica</option>
+        </select>
+        <br>
+        <label for="enviar"></label>
+        <button>enviar</button>
+        <label class="titulo-tabela" for="tabela de cursos" >tabela de cursos</label>
+        <table  border="1">
+            <tr>
+                <th>cursos</th>
+            </tr>
+            <tr>
+                <td>Tecnologia</td>
+            </tr>
+            <tr>
+                <td>Gecânica</td>
+            </tr>
+            <tr>
+                <td>Botânica</td>
+            </tr>
+            <tr>
+                <td>Gastronomia</td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+
+</html>

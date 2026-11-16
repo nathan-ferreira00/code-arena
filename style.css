@@ -1,0 +1,50 @@
+h1{
+    color: #2563eb;
+    font-size: 32px;
+    text-align: center;
+    
+}
+
+body{
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    border-color: #1e293b;
+    text-align: center;
+    
+}
+
+
+.titulo-tabela{
+text-align: center;
+font-size: 25px;
+}
+
+.aviso{
+    color: #b91c1c;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.cartao{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
